@@ -55,7 +55,7 @@ char keys[ROWS][COLS] = {
 
 Keypad keypad = Keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);
 
-char correctSequence[4] = {'2', '6', 'C', 'D'};
+char correctSequence[4] = {'C', '3', '0', '2'};
 char inputSequence[4];
 int inputIndex = 0;
 
